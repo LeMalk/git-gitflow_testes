@@ -1,22 +1,17 @@
-name: Atualizar Repositório
+name: Exemplo de GitHub Actions
 
 on:
   push:
     branches:
-      - master  # Atualize aqui para o nome do branch principal (por exemplo, "master" ou "main")
+      - main
 
 jobs:
-  update-repo:
+  exemplo-job:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout do repositório
       uses: actions/checkout@v2
 
-    - name: Atualizar repositório
-      run: |
-        git config user.name "Leandro Goncalves"
-        git config user.email "leandro.goncalves@abuzitos.com.br"
-        git add .
-        git commit -m "Atualização automática do repositório via GitHub Actions"
-        git push
+    - name: Imprimir mensagem
+      run: echo "Olá, mundo! Essa é uma ação do GitHub Actions."
