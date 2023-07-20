@@ -1,0 +1,23 @@
+name: Build e Testes
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v2
+
+    - name: Configurar ambiente
+      run: npm install
+
+    - name: Compilar código
+      run: npm run build
+
+    - name: Executar testes
+      run: npm run test
