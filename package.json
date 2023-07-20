@@ -1,0 +1,17 @@
+{
+    "name": "meu-projeto",
+    "version": "1.0.0",
+    "description": "Descrição do meu projeto",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Erro: Nenhum teste definido\" && exit 1"
+    },
+    "author": "Seu Nome",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "lodash": "^4.17.21"
+    }
+  }
+  
