@@ -16,4 +16,4 @@ Configurada a proteção a branch master
 
 Teste GitHub Actions
 
-Último teste
+Último teste corrigido com fixup
