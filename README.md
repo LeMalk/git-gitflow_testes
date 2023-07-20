@@ -13,7 +13,3 @@ Teste closed issue
 Executei as atualizações do comentário no codereview
 
 Teste do Actions
-
-Blá Blá
-
-Build e Testes
