@@ -13,3 +13,5 @@ Teste closed issue
 Executei as atualizações do comentário no codereview
 
 Teste do Actions
+
+Teste 2
