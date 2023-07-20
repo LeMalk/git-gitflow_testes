@@ -8,12 +8,4 @@ html5up.net | @ajlkn
 
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-Teste closed issue
-
-Executei as atualizações do comentário no codereview
-
-Configurada a proteção a branch master
-
-Teste GitHub Actions
-
-Último teste corrigido com fixup
+commit 1
