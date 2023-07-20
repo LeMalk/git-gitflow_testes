@@ -1,0 +1,22 @@
+name: Atualizar Repositório
+
+on:
+  push:
+    branches:
+      - master  # Atualize aqui para o nome do branch principal (por exemplo, "master" ou "main")
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v2
+
+    - name: Atualizar repositório
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add .
+        git commit -m "Atualização automática do repositório via GitHub Actions"
+        git push
