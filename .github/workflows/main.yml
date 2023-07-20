@@ -15,8 +15,8 @@ jobs:
 
     - name: Atualizar repositório
       run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
+        git config user.name "Leandro Goncalves"
+        git config user.email "leandro.goncalves@abuzitos.com.br"
         git add .
         git commit -m "Atualização automática do repositório via GitHub Actions"
         git push
