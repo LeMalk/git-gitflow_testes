@@ -3,7 +3,7 @@ name: Exemplo de GitHub Actions
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   exemplo-job:
