@@ -12,4 +12,6 @@ Teste closed issue
 
 Executei as atualizações do comentário no codereview
 
-Teste do Actions
+Configurada a proteção a branch master
+
+Teste GitHub Actions
